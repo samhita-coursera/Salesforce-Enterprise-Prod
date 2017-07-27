@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalPicklist xmlns="http://soap.sforce.com/2006/04/metadata">
+    <globalPicklistValues>
+        <fullName>Aerospace &amp; Defense</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Air Freight &amp; Logistics</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Airlines</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Automotive</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Banks</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Beverages</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Biotechnology</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Building Materials</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Capital Markets</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Chemicals</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Commercial Services &amp; Supplies</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Communications Equipment</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Construction &amp; Engineering</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Consumer Durables &amp; Apparel</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Consumer Goods</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Containers &amp; Packaging</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Distributors</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Diversified Consumer Services</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Diversified Financial Services</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Diversified Telecommunication Services</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Education Services</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Electrical Equipment</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Electric Utilities</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Electronic Equipment, Instruments &amp; Components</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Family Services</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Food &amp; Staples Retailing</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Food Products</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Gas Utilities</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Health Care Equipment &amp; Supplies</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Health Care Providers &amp; Services</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Hotels, Restaurants &amp; Leisure</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Household Durables</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Industrial Conglomerates</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Insurance</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Internet Software &amp; Services</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>IT Services</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Leisure Products</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Machinery</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Marine</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Media</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Metals &amp; Mining</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Paper &amp; Forest Products</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Personal Products</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Pharmaceuticals</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Professional Services</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Real Estate</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Renewable Electricity</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Road &amp; Rail</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Software</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Specialized Consumer Services</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Specialty Retail</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Technology Hardware, Storage &amp; Peripherals</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Textiles, Apparel &amp; Luxury Goods</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Tobacco</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Trading Companies &amp; Distributors</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Transportation</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Utilities</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Wireless Telecommunication Services</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Consumer Discretionary</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Life Sciences Tools &amp; Services</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Semiconductors &amp; Semiconductor Equipment</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Consumer Staples</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <masterLabel>Industry Category</masterLabel>
+    <sorted>false</sorted>
+</GlobalPicklist>

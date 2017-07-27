@@ -1,0 +1,18 @@
+Dear {!Contact.FirstName},
+<p> </p>
+<p>Thank you for attending the webinar “A Corporate Learning Revolution” hosted by SHRM in partnership with Coursera.</p>
+<p> </p>
+<p>Here’s a link to the <a href="http://edge.media-server.com/m/p/fxioj366">recording</a> in case you missed out or wish to revisit some parts of the talk.</p>
+<p> </p>
+<p>I would love to understand how {!Lead.Company} is using eLearning and MOOCs in its overall learning and development strategy - are you actively looking at moving from an in-classroom training to eLearning or looking to supplement your existing learning programs with eLearning and mobile learning?</p>
+<p> </p>
+<p>Would you or someone from your team have time for a quick call next week?</p>
+<p></p>
+
+Best regards,
+<br>
+Aditya Shailaj
+<br>
+Enterprise Account Executive
+<br>
+Coursera

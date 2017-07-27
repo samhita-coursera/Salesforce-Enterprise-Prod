@@ -1,0 +1,11 @@
+Dear {!Contact.FirstName}, 
+
+I noticed that you recently attended our recent ATD webinar "Revolutionizing Corporate Learning".  We hope you found the insights from Coursera and L'Oreal to be very helpful on how best to leverage online learning at {!Account.Name}.  
+
+In this recent Economist article, online learning platforms have been the path forward for many companies to equip their employees to stay ahead of technologic change.  What makes Coursera different is our partnerships with the globe's 150 universities and companies that offer world-class courses for the most in-demand skill sets. This has led to companies of all sizes and industries, to decide to work with us as their main provider of online content since our business platform was introduced a year ago.   
+
+Could I get 30 minutes to share how companies similar to {!Account.Name} are using Coursera to improve their workforce's competencies?
+
+I am looking forward to speaking with you!
+Best regards,
+Heliatrice

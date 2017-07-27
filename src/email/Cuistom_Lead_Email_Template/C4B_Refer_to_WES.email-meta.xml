@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>C4B Refer to WES</name>
+    <style>none</style>
+    <subject>Coursera - Thank you for your interest</subject>
+    <textOnly>Thank you for your interest in Coursera for Business!
+
+Are you ready to uplevel the skills of your team? Our new self-service version of Coursera for Business will have your team up and running in no time!
+
+Our new version of Coursera for Business is catered to small and medium-sized businesses. Based on the information you provided to Coursera, we feel this could be the right fit for your organization.
+
+We look forward to working with you!
+
+The Coursera for Business Team</textOnly>
+    <type>custom</type>
+</EmailTemplate>

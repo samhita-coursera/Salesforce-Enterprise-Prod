@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Webinar focused reachout</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Aditya Webinar reachout</name>
+    <style>none</style>
+    <subject>Coursera can help {!Account.Name} keep pace with emerging tech!</subject>
+    <textOnly>Dear {!Contact.FirstName},
+
+
+Thank you for attending the webinar “A Corporate Learning Revolution” hosted by SHRM in partnership with Coursera.
+
+
+Here’s a link to the recording in case you missed out or wish to revisit some parts of the talk.
+
+
+I would love to understand how {!Lead.Company} is using eLearning and MOOCs in its overall learning and development strategy. Are you actively looking at moving from an In-classroom training to eLearning? Or looking to supplement your existing learning programs with eLearning and mobile learning?
+
+
+Would you or someone from your team have time for a quick call next week?
+
+
+Best regards,
+Aditya Shailaj
+Enterprise Account Executive
+Coursera</textOnly>
+    <type>custom</type>
+</EmailTemplate>

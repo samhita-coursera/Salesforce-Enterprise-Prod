@@ -1,0 +1,10 @@
+<p>Dear {!Lead.FirstName} </p> 
+
+<p>At this time, Coursera for Business is only available for larger deployments. Based on the information you’ve provided, our web-enabled sales version of Coursera for Business could be the right fit for your organization. We will release this feature in early 2017, and we look forward to reaching out to you when it is available.</p> 
+
+<p>In the meantime, we hope you and your colleagues will explore our <a href="http://coursera.org/courses">consumer catalog</a> and consider joining a few courses related to your personal and professional interests. If you have questions about our consumer products, technical support or payment issues, please 
+<a href="https://learner.coursera.help/hc/en-us">visit our learner help center</a>.</p>
+
+<p>Again, thank you for reaching out to us!</p>
+
+<p>The Coursera for Business Team</p>

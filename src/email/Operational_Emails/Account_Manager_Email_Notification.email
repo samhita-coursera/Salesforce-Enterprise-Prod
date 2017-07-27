@@ -1,0 +1,9 @@
+Dear {!Account.Account_Manager__c}, 
+
+This is to notify that you have been assigned as account manager for below specified account. 
+
+Account Name: {!Account.Name} 
+For more details, please visit at {!Account.Link} 
+
+Thanks, 
+{!Account.OwnerFullName}

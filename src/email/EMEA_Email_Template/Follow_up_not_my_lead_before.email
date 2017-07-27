@@ -1,0 +1,10 @@
+Dear {!Contact.FirstName},
+
+I hope this email finds you well. My name is Heliatrice and I am an enterprise solutions representative at Coursera. I am following up on a contact you made to us through the form on Coursera website. I would like to speak with you to better understand the learning needs of {!Account.Name} and if we can potentially collaborate. 
+
+Would you be free for a quick call early next week? Please, let me know your availability, so we can set up a call at your earliest convenience.
+
+Thank you in advance for your attention and looking forward to hearing from you soon.
+
+Best regards,
+Heliatrice

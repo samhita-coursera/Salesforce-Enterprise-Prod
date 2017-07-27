@@ -1,0 +1,31 @@
+{
+    "projectName": "Enterprise - prod",
+    "username": "samhita@coursera.org.enterprise",
+    "id": "8366b1c0-72fc-11e7-a5d5-8f31941af23f",
+    "namespace": "",
+    "orgType": "developer",
+    "loginUrl": "https://login.salesforce.com/",
+    "instanceUrl": "https://na30.salesforce.com",
+    "workspace": "/Users/spidapartiswati/Documents/Sublime Workspace",
+    "subscription": [
+        "ApexClass",
+        "ApexComponent",
+        "ApexPage",
+        "ApexTrigger",
+        "ApprovalProcess",
+        "AssignmentRules",
+        "CustomLabels",
+        "CustomMetadata",
+        "CustomObject",
+        "CustomPermission",
+        "EmailTemplate",
+        "GlobalPicklist",
+        "PermissionSet",
+        "Profile",
+        "Queue",
+        "Role",
+        "SharingRules",
+        "StaticResource",
+        "Workflow"
+    ]
+}

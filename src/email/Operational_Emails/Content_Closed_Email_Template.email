@@ -1,0 +1,13 @@
+Dear {!CourseraContent__c.Opportunity_Owner__c},
+
+This is to notify you that the content below has been closed.
+
+Content Needs: {!CourseraContent__c.Describe_specific_content_needs__c}
+Categories of Courses: {!CourseraContent__c.Categories_of_Courses__c}
+Related Opportunity: {!CourseraContent__c.Opportunity__c}
+Related Account: {!CourseraContent__c.Account_Name__c}
+
+For more details, please visit {!CourseraContent__c.Link}
+
+Thanks,
+Enterprise Team

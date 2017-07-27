@@ -1,0 +1,17 @@
+<p>{!Opportunity.Name}  just closed Lost!</p>
+<p>Deal Details:</p>
+<p></p>
+
+<p>Account Name: {!Opportunity.Account}</p>
+<p>Amount: {!Opportunity.Amount}</p>
+<p>Close Date: {!Opportunity.CloseDate}</p>
+
+<p></p>
+
+<p>Closed Lost Reasons:</p>
+
+<p>{!Opportunity.Loss_Reason__c}</p>
+
+
+<p></p>
+<p>{!Opportunity.Notes_details_on_loss__c}</p>

@@ -1,0 +1,10 @@
+Hello {!Contact.FirstName}, 
+
+I am following up with you on the material I sent you some days ago after our call about Coursera for Business. I would like to know if our offer aligns with the learning needs of {!Account.Name}. 
+
+If it does, I would love to schedule a call with our leaderships to keep further exploring the possibilities of a partnership between {!Account.Name} and Coursera. 
+
+I am looking forward to hearing from you and let me know if I can clarify any points in the meantime.
+
+Best regards, 
+Heliatrice

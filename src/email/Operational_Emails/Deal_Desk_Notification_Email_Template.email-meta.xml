@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>39.0</apiVersion>
+    <available>true</available>
+    <description>This email template is used to send out email notification to deal desk email alias</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Deal Desk Notification Email Template</name>
+    <style>none</style>
+    <subject>Deal Desk Notification</subject>
+    <type>visualforce</type>
+</EmailTemplate>

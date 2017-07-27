@@ -1,0 +1,12 @@
+Dear {!NullValue(Contact.FirstName, "Sir or Madam")}
+ 
+My name is {!User.FirstName} and I am an enterprise solutions representative at Coursera. You recently inquired about <> and I wanted  to follow up with you to thank you for your interest in Coursera for Business.
+
+As you may already know, Coursera for Business offers an industry leading  online education solution that helps enterprises <build knowledge, skills and abilities organization need today and in the future that rewards employers by increasing retention, reducing turnover, and improving employee satisfaction and productivity >.
+
+Would you be available for a quick phone call next week on <> at <> or on <>  at <> (PST/EST)? I will be glad to get to know better the learning needs of {!NullValue(Account.Name, "your company")}
+
+Best regards,
+{!User.FullName}
+{!Organization.Name}
+{!User.Email}

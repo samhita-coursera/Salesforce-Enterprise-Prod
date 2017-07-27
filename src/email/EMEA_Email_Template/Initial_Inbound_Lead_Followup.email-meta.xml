@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Initial Inbound Lead Followup</name>
+    <style>none</style>
+    <subject>Re: Your recent inquiry Coursera for Business</subject>
+    <textOnly>Dear {!Lead.FirstName},  
+
+Thank you for reaching out to Coursera! My name is &lt;&gt; and I just left a voice message regarding your Coursera for Business inquiry. M   
+
+Best regards, 
+Heliatrice  
+
+PS: You may be interested in this article about [ex: digital learning for the next generation of corporate academies]. REWARD</textOnly>
+    <type>custom</type>
+</EmailTemplate>

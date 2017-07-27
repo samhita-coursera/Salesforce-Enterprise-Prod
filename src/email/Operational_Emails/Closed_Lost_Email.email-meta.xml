@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Closed Lost Email</name>
+    <style>none</style>
+    <subject>{!Opportunity.Name} closed Lost</subject>
+    <textOnly>{!Opportunity.Name}  just closed won! Following are deal details:  Account Name: {!Opportunity.Account} Amount: {!Opportunity.Amount} Close Date: {!Opportunity.CloseDate} Launch Date: {!Opportunity.Launch_Date__c}   Closed Won Reasons: {!Opportunity.Closed_Won_Reason__c} {!Opportunity.Closed_Won_Detail__c}</textOnly>
+    <type>custom</type>
+</EmailTemplate>

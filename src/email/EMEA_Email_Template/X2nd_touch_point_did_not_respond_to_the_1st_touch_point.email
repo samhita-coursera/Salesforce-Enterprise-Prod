@@ -1,0 +1,8 @@
+Dear {!NullValue(Contact.FirstName, "Sir or Madam")}, 
+
+I am following up with you on the email I sent you some days ago about Coursera for Business. I would like to know if you are still interested in getting information about our offer and how it can respond to your learning needs. 
+
+If you are interested, I would love to give you a call next week to hear from you how we can potentially collaborate, just let me know your availability. 
+
+Best regards, 
+Heliatrice

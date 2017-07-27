@@ -1,0 +1,8 @@
+Dear {!NullValue(Contact.FirstName, "Sir or Madam")},
+
+I am following up with you on the material I sent you some days ago about Coursera for Business. I would like to know if our offer aligns with the learning needs of {!NullValue(Account.Name, "your company")}. If it does, I would love to give you a call to talk more about Coursera for Business and about the learning needs of your company in further detail. 
+
+I am looking forward to hearing from you and continue exploring the possibility of a collaboration if you think Coursera for Business fits the learning needs of {!NullValue(Account.Name, "your company")}.
+
+Best regards,
+Heliatrice

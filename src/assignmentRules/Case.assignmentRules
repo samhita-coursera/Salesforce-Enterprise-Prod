@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssignmentRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignmentRule>
+        <fullName>Provisioning</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <assignedTo>parys@coursera.org</assignedTo>
+            <assignedToType>User</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Provisioning</value>
+            </criteriaItems>
+        </ruleEntry>
+    </assignmentRule>
+</AssignmentRules>

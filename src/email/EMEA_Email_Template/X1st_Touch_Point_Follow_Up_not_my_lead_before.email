@@ -1,0 +1,13 @@
+Dear {!Contact.FirstName}, 
+
+Thank you for your interest in Coursera. I work in our Enterprise Solutions team and would like to get a better understanding of the learning needs of {!Account.Name}.
+
+Would you be free for a call in the coming days? I have good availability on:
+
+-  , between 
+-  , between
+
+Please let me know what works for you. 
+
+Best regards, 
+Adam

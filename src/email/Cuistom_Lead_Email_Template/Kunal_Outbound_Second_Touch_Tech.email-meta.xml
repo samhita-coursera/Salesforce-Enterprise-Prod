@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>2nd touch email for outbound (tech companies)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Kunal Outbound: Second Touch Tech</name>
+    <style>none</style>
+    <subject>Coursera can help {!Account.Name} keep pace with emerging tech!</subject>
+    <textOnly>Dear {!Contact.FirstName},
+
+We’re hearing that it’s a race to keep up with changing technology. 70% of CEOs say their organization doesn’t have the skills to adapt to changes driven by digital technologies. Software engineers have to redevelop their skills every 12-18 months.
+
+
+As a knowledge professional, I am sure you must have already recognized the need to incorporate MOOCs and online learning in your organization&apos;s training strategy.
+
+Coursera for Business provides curated online courses that map to the skills your organization needs. We have courses on Emerging Technologies, Object Oriented Java Programming, Machine Learning and Data Science among other emerging areas as well as courses on Leadership Development.
+
+I&apos;d love to connect with you or your team to see if Coursera for Business might be a fit?
+
+
+Best regards,
+
+
+Kunal
+
+Enterprise Sales Head, India
+Coursera</textOnly>
+    <type>custom</type>
+</EmailTemplate>

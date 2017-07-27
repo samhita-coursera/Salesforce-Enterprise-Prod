@@ -1,0 +1,7 @@
+Hi {!Task.Owner_Name__c},
+
+The task {!Task.Subject} is due on {!Task.ActivityDate}.
+Please refer the link below to complete it: 
+{!Task.Link}
+
+Thanks!

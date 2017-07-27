@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Mike Outbound: Second Touch to A &amp; B</name>
+    <style>none</style>
+    <subject>Keep Pace with Changing Tech Skills</subject>
+    <textOnly>Hello,
+
+We’re hearing that it’s a race to keep up with changing technology. 70% of CEOs say their organization doesn’t have the skills to adapt to changes driven by digital technologies. Software engineers have to redevelop their skills every 12-18 months ( see: https://dupress.deloitte.com/dup-us-en/focus/human-capital-trends/2017/learning-in-the-digital-age.html ).
+
+Coursera for Business has courses like Duke University’s Java Programming ( see: https://www.coursera.org/specializations/java-programming ) and UCSD’s Object Oriented Java Programming ( see: https://www.coursera.org/specializations/java-object-oriented ).
+
+Who is the right person on your team to speak with to see if Coursera for Business might be a fit?</textOnly>
+    <type>custom</type>
+</EmailTemplate>

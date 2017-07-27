@@ -1,0 +1,24 @@
+Hi,
+
+This is to notify you that a new content has been created in salesforce.
+
+Related Opportunity: {!CourseraContent__c.Opportunity__c}
+Per Learner Courses: {!CourseraContent__c.Per_learner_courses__c}
+Due Date: {!CourseraContent__c.Due_Date__c}
+
+Categories of Courses: {!CourseraContent__c.Categories_of_Courses__c}
+Specific Content Needs: {!CourseraContent__c.Describe_specific_content_needs__c}
+Content Type: {!CourseraContent__c.Content_Type__c}
+
+Job Level: {!CourseraContent__c.Job_Roles__c}
+Is Writing Software needed?: {!CourseraContent__c.Any_job_requires_writing_Software__c}
+Job Role: {!CourseraContent__c.Job_Role__c}
+Competency Mapping Required?: {!CourseraContent__c.Competency_Mapping_Required__c}
+Content Curation Format: {!CourseraContent__c.Content_Curation_Format__c}
+
+
+For more details, please visit {!CourseraContent__c.Link}
+
+
+Thanks,
+Enterprise Team

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Closed Won Email</name>
+    <style>none</style>
+    <subject>{!Opportunity.Name} closed won! - TCV: {!Opportunity.Amount}</subject>
+    <textOnly>{!Opportunity.Name}  just closed won!
+
+ &lt;p&gt;Following are deal details:  &lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;Account Name: {!Opportunity.Account} &lt;/p&gt;
+&lt;p&gt;Amount: {!Opportunity.Amount} &lt;/p&gt;
+&lt;p&gt;Close Date: {!Opportunity.CloseDate} &lt;/p&gt;
+&lt;p&gt;Launch Date: {!Opportunity.Launch_Date__c}   &lt;/p?
+
+&lt;p&gt;&lt;/p&gt;
+Closed Won Reasons: 
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;{!Opportunity.Closed_Won_Reason__c} &lt;/p&gt;
+&lt;p&gt;{!Opportunity.Closed_Won_Detail__c}&lt;/p&gt;</textOnly>
+    <type>custom</type>
+</EmailTemplate>

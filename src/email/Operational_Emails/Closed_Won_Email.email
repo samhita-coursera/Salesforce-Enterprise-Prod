@@ -1,0 +1,15 @@
+<p>{!Opportunity.Name}  just closed won! </p>
+
+<p>Deal Details:</p>
+
+<p>Account Name: {!Opportunity.Account}</p>
+<p>Amount: {!Opportunity.Amount}</p>
+<p>ACV: {!Opportunity.ACV_Quota_Retirement__c}</p>
+<p>Close Date: {!Opportunity.CloseDate}</p>
+<p>Lead Source: {!Opportunity.LeadSource}</p>
+<p>Launch Date: {!Opportunity.Launch_Date__c}</p>
+
+
+<p>Closed Won Reasons:</p>
+<p>{!Opportunity.Closed_Won_Reason__c}</p>
+<p>{!Opportunity.Closed_Won_Detail__c}</p>

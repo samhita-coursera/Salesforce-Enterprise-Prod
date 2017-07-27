@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>GOV Unqualified Automatic Lead</name>
+    <style>none</style>
+    <subject>Coursera - Thank you for your interest</subject>
+    <textOnly>Thank you for your interest in Coursera for Business! 
+
+At this time, Coursera for Business is only available for larger deployments. Based on the information you’ve provided, our web-enabled sales version of Coursera for Business could be the right fit for your organization. We will release this feature in early 2017, nd we look forward to reaching out to you when it is available.
+
+In the meantime, we hope you and your colleagues will explore our consumer catalog and consider joining a few courses related to your personal and professional interests. If you have questions about our consumer products, technical support or payment issues, please visit our learner help center. 
+
+Again, thank you for reaching out to us!
+
+The Coursera for Business Team</textOnly>
+    <type>custom</type>
+</EmailTemplate>

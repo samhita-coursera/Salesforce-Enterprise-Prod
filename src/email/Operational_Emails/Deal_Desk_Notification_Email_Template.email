@@ -1,0 +1,58 @@
+<messaging:emailTemplate subject="New deal desk request for {!relatedTo.Account.Name}" recipientType="User" relatedToType="Opportunity" replyTo="ddixit@coursera.org">
+<messaging:htmlEmailBody >
+<html>
+<body>
+<style type="text/css">
+    th{font-size: 11px; font-face: arial;background: #CCCCCC; border-width: 1;  text-align: center }
+    td{font-size: 11px; font-face: verdana }
+    table{border: solid #CCCCCC; border-width: 1}
+    tr{border: solid #CCCCCC; border-width: 1}
+</style>
+<font face="arial" size="2">
+<p>Deal desk team,</p>
+<p>Below is new deal desk request for your review: </p>
+<p/>
+<p><strong>Account Details:</strong></p>
+Account Name: {!relatedTo.Account.Name}<br/>
+Account Executive: {!relatedTo.Account.Owner.Name}<br/>
+Industry: {!relatedTo.Account.Industry}<br/>
+Billing Country: {!relatedTo.Account.BillingCountry}<br/>
+Customer Success Account Tier: {!relatedTo.Account.Customer_Success_Account_Tier__c}<br/>
+<p><strong>Deal Details:</strong></p>
+Deal Name: {!relatedTo.Name}<br/>
+Deal Close Date: {!relatedTo.CloseDate}<br/>
+Deal Type: {!relatedTo.Type}<br/>
+Amount: {!relatedTo.Amount}<br/>
+ACV: {!relatedTo.ACV_Quota_Retirement__c}<br/>
+<p><strong>Deal Desk Details:</strong></p>
+Discount Approved: {!relatedTo.Discount_Approved__c}<br/>
+Link to Google Doc: {!relatedTo.Link_to_Google_Doc__c}<br/>
+Is this a pilot/proof of concept?: {!relatedTo.Pilot_POC__c}<br/>
+Does customer need vendor registration?: {!relatedTo.Vendor_Registration_Needed__c}<br/>
+Legal Negotiation Details: {!relatedTo.Legal_Negotiation_Next_Steps__c}<br/>
+<p/>
+<p><strong>Product Details:</strong></p>
+<table border="2" >
+    <tr >
+        <th>Product</th>
+        <th>Quantity</th>
+        <th>Sales Price</th>
+        <th>Total Price</th>
+    </tr>
+    <apex:repeat var="px" value="{!relatedTo.OpportunityLineItems}">
+        <tr>
+            <td>{!px.Product2.Name}</td>
+            <td>{!px.Quantity}</td>
+            <td>{!px.UnitPrice}</td>
+            <td>{!px.TotalPrice}</td>
+        </tr>
+    </apex:repeat>                
+</table>
+<p/>
+For more details, please click on : 
+<apex:outputlink value="{!LEFT($Api.Partner_Server_URL_140,FIND('.com',$Api.Partner_Server_URL_140)+4)+relatedTo.Id}">{!relatedTo.Name}</apex:outputlink>
+</font>
+</body>
+</html>
+</messaging:htmlEmailBody>
+</messaging:emailTemplate>
