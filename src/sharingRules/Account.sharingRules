@@ -1,6 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
     <sharingCriteriaRules>
+        <fullName>Account_Customer_Success_Managers_NA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Edit</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Edit</opportunityAccessLevel>
+        </accountSettings>
+        <label>Account/Customer Success Managers: NA</label>
+        <sharedTo>
+            <roleAndSubordinates>Customer_Success_North_America</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>B2B</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account_Manager__c</field>
+            <operation>notEqual</operation>
+            <value></value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>X2016_B2B_Territory1__c</field>
+            <operation>equals</operation>
+            <value>NA1(Susan),NA2(Pooja),NA3,LATAM,NA4(Mike),NA5(Paymon),NA6(Renee),GOV</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Account_Customer_Success_Managers_for_EMEA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Edit</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Edit</opportunityAccessLevel>
+        </accountSettings>
+        <label>Account/Customer Success Managers: EMEA</label>
+        <sharedTo>
+            <roleAndSubordinates>Customer_Success_EMEA</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>B2B</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account_Manager__c</field>
+            <operation>notEqual</operation>
+            <value></value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>X2016_B2B_Territory1__c</field>
+            <operation>equals</operation>
+            <value>EMEA,GOV</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Edit_access_to_Account_Customer_Success_Managers</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Edit</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Edit</opportunityAccessLevel>
+        </accountSettings>
+        <label>Edit access to Account/Customer Success Managers</label>
+        <sharedTo>
+            <roleAndSubordinates>Customer_Success_APAC</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>B2B</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account_Manager__c</field>
+            <operation>notEqual</operation>
+            <value></value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>X2016_B2B_Territory1__c</field>
+            <operation>equals</operation>
+            <value>Non-India APAC,India,GOV</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
         <fullName>Share_Account_and_Opportunities_as_ediatble_by_AMs</fullName>
         <accessLevel>Edit</accessLevel>
         <accountSettings>

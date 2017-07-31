@@ -2999,19 +2999,12 @@ ISPICKVAL( LMS__c  , &quot;&quot;)
         <availability>online</availability>
         <description>This button will open up Deal Desk Form for user to fill in relevant details and submit</description>
         <displayType>button</displayType>
-        <hasMenubar>false</hasMenubar>
-        <hasScrollbars>true</hasScrollbars>
-        <hasToolbar>false</hasToolbar>
         <height>600</height>
-        <isResizable>true</isResizable>
         <linkType>page</linkType>
         <masterLabel>Submit Deal Desk</masterLabel>
-        <openType>newWindow</openType>
+        <openType>sidebar</openType>
         <page>Deal_Desk_Form</page>
-        <position>none</position>
         <protected>false</protected>
-        <showsLocation>false</showsLocation>
-        <showsStatus>false</showsStatus>
     </webLinks>
     <webLinks>
         <fullName>dsfs__Send_with_DocuSign</fullName>

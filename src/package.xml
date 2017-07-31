@@ -183,6 +183,10 @@
     </types>
     <types>
         <members>*</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>*</members>
         <name>GlobalPicklist</name>
     </types>
     <types>
@@ -196,6 +200,10 @@
     <types>
         <members>*</members>
         <name>Queue</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>RemoteSiteSetting</name>
     </types>
     <types>
         <members>*</members>
