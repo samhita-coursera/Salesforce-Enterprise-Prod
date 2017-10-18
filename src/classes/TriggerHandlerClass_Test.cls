@@ -1,4 +1,4 @@
-@isTest
+@isTest(SeeAllData= true)
 private class TriggerHandlerClass_Test {
 	static Profile p;
 	static UserRole ur;
@@ -43,22 +43,35 @@ private class TriggerHandlerClass_Test {
 		Test.stopTest();		
 	}
 
+	@isTest static void test_CreateNewQBRsForClosedWonNewBusinessOpportunities() {
+		data();
+		Id caseRecordTypeId = Schema.Sobjecttype.Case.getRecordTypeInfosByName().get('Provisioning').getRecordTypeId();         
+		Case c = new Case(AccountId = a.id, Opportunity__c = o.id, RecordTypeId = caseRecordTypeId, Actual_Launch_Date__c = system.today(), Implementation_Status__c = 'On Track');
+		insert c; 		
+		Test.startTest();
+		c.Implementation_Status__c = 'Launched';
+		update c;
+		Test.stopTest();		
+	}
+
 	static void data(){
 		p = [SELECT p.Name,p.Id from Profile p where p.Name='Standard User' limit 1]; 
 		
-		ur = [Select id from UserRole where Name = 'Customer Success-APAC' limit 1];               
-        
-        standardUser = new User(UserName='testMexyz@google.com',LastName='Test',email='test@google.com',alias='testMeXy',communitynickname='testMex',
-        TimeZoneSidKey='America/New_York',LocaleSidKey='en_US',EmailEncodingKey='ISO-8859-1',ProfileId=p.Id,LanguageLocaleKey='en_US',UserRoleId=ur.Id);
-        //insert standardUser;
+		ur = [Select id from UserRole where Name = 'Customer Success-APAC' limit 1];  
 
-        a = new Account(Name = 'TestAccount', Type = 'B2B: Corporate');
+		standardUser = [Select id from User limit 1];             
+        
+        /*standardUser = new User(UserName='testMexyz@google.com',LastName='Test',email='test@google.com',alias='testMeXy',communitynickname='testMex',
+        TimeZoneSidKey='America/New_York',LocaleSidKey='en_US',EmailEncodingKey='ISO-8859-1',ProfileId=p.Id,LanguageLocaleKey='en_US',UserRoleId=ur.Id);
+        insert standardUser;*/
+
+        a = new Account(Name = 'TestAccount', Type = 'B2B: Corporate', Account_Manager__c = standardUser.id);
 		insert a;
 		
 		contact = new Contact(AccountID = a.id, LastName = 'xyz');
 		insert contact;
 		
-		o = new Opportunity(Name = 'TestOppty', AccountId = a.id, CloseDate = System.Today()+7, StageName = 'Proposal');
+		o = new Opportunity(Name = 'TestOppty', AccountId = a.id, CloseDate = System.Today()+7, StageName = 'Proposal', Type = 'New business');
 		insert o;
 		
 		c = new Case (Status = 'New', Origin = 'Email', Client_Slug__c = 'xyz', Opportunity__c = o.id);
